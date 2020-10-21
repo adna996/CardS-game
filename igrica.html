@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IGRICA | CardS</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/png" href="slike/favicon.png" sizes="200x200">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+
+</head>
+<body id="igricaT">
+	<nav class="navbar">
+		<a href="igrica.html" class="button">CardS</a>
+		<ul class="nav">
+	        <li class="nav-item">
+	          <a class="nav-link" href="igrica.html">Play</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link"href="upute.html">Upute</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="projekti.html">O projektu</a>
+	        </li>
+	    </ul>
+	</nav>
+
+<!-- Ideja za izgled score prozora 
+	https://www.youtube.com/watch?v=jaVNP3nIAv0&t=1580s-->
+<div class="rez">
+	<div id="igraca" class="imena"> <b>A </div>
+	<div id="igracb" class="imena"> <b>B </div>
+	<span id="igracar">0</span>:<span id="igracbr">0</span>
+</div>
+<div class="poruka">
+	<button id="novaigra"><b>Želis igrati ponovo?</button>
+</div>
+<div class="ploca">
+	<table id="tabela">
+		<tr class="red">
+			<td class="card" id="card1">
+				<div class="zadnja"><p class="broj"></p></div>
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+			<td class="card" id="card2">
+				<div class="zadnja"><p class="broj"></p></div>
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+			<td class="card" id="card3">
+				<div class="zadnja"><p class="broj"></p></div>
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+			<td class="card" id="card4">
+				<div class="zadnja"><p class="broj"></p></div>
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+			<td class="card" id="card5">
+				<div class="zadnja"><p class="broj"></p></div>				
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+		</tr>
+		<tr class="red">
+			<td class="card" id="card6">
+				<div class="zadnja"><p class="broj"></p></div>
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+			<td class="card" id="card7">
+				<div class="zadnja"><p class="broj"></p></div>
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+			<td class="card" id="card8">
+				<div class="zadnja"><p class="broj"></p></div>
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+			<td class="card" id="card9">
+				<div class="zadnja"><p class="broj"></p></div>
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+			<td class="card" id="card10">
+				<div class="zadnja"><p class="broj"></p></div>				
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+		</tr>
+		<tr class="red">
+			<td class="card" id="card11">
+				<div class="zadnja"><p class="broj"></p></div>
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+			<td class="card" id="card12">
+				<div class="zadnja"><p class="broj"></p></div>
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+			<td class="card" id="card13">
+				<div class="zadnja"><p class="broj"></p></div>
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+			<td class="card" id="card14">
+				<div class="zadnja"><p class="broj"></p></div>
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+			<td class="card" id="card15">
+				<div class="zadnja"><p class="broj"></p></div>				
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+		</tr>
+		<tr class="red">
+			<td class="card" id="card16">
+				<div class="zadnja"><p class="broj"></p></div>
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+			<td class="card" id="card17">
+				<div class="zadnja"><p class="broj"></p></div>
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+			<td class="card" id="card18">
+				<div class="zadnja"><p class="broj"></p></div>
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+			<td class="card" id="card19">
+				<div class="zadnja"><p class="broj"></p></div>
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+			<td class="card" id="card20">	
+				<div class="zadnja"><p class="broj"></p></div>			
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+		</tr>
+		<tr class="red">
+			<td class="card" id="card21">
+				<div class="zadnja"><p class="broj"></p></div>
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+			<td class="card" id="card22">
+				<div class="zadnja"><p class="broj"></p></div>
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+			<td class="card" id="card23">
+				<div class="zadnja"><p class="broj"></p></div>
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+			<td class="card" id="card24">
+				<div class="zadnja"><p class="broj"></p></div>
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+			<td class="card" id="card25">
+				<div class="zadnja"><p class="broj"></p></div>				
+				<img class="prednja" src="slike/click.png" alt="Klik">
+			</td>
+		</tr>
+	</table>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
